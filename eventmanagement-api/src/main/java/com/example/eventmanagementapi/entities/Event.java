@@ -18,6 +18,7 @@ public class Event extends AbstractEntity {
 
 	@JsonProperty("desc")
 	private String description;
+	
 	private ZonedDateTime startTime;
 	private ZonedDateTime endTime;
 	private ZoneId zoneId;
